@@ -1,0 +1,8 @@
+# Backtest outputs / results — never commit generated artifacts
+outputs/
+results/
+*.log
+*.json.lock
+
+# Local-only runtime config overrides (keep templates, ignore personal copies)
+config/local.*.json
