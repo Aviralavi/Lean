@@ -97,3 +97,9 @@ rebases on top conflict-free.
   edit, stop and reconsider — there is almost always a config/path-based way.
 - Commit messages end with the Co-Authored-By trailer.
 - Keep Lean's `LICENSE` intact (Apache-2.0 permits our private modified copy).
+
+## Git discipline (strict)
+
+**Never `git commit` or `git push` unless the user explicitly tells you to.**
+Make and stage changes, then stop and report — wait for an explicit "commit"
+or "push". This applies every session, no exceptions.
